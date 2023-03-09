@@ -1,0 +1,150 @@
+.gloock-font {
+  font-family: "Gloock", serif;
+}
+.rubik-font {
+  font-family: "Rubik", sans-serif;
+}
+.collapse p {
+  font-family: "Rubik", sans-serif;
+}
+.collapse h5 {
+  font-family: "Gloock", serif;
+}
+
+#imagen {
+  height: 50px !important;
+  width: auto;
+}
+
+.carousel-inner > .carousel-item > img {
+  margin-top: 2rem;
+  height: 100vh;
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2687px) {
+  .mensaje-FashionBrand h5 {
+    font-size: 3vw !important;
+  }
+
+  .mensaje-FashionBrand p {
+    font-size: 2vw !important;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .carousel-inner > .carousel-item > img {
+    height: 95vh;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .carousel-inner > .carousel-item > img {
+    height: 50vh;
+  }
+}
+
+.titulo-FashionBrand h2 {
+  text-align: left;
+  margin: 1rem;
+}
+
+.mensaje-FashionBrand {
+  margin-top: 2rem;
+}
+.video-FashionBrand h3 {
+  margin: 4rem;
+  margin-bottom: 1rem !important;
+}
+
+.fixed-ratio-resize {
+  width: 100%;
+  height: auto;
+  width: auto/2;
+  border-radius: 5%;
+  margin-top: 2.5rem;
+}
+
+@media screen and (max-width: 769px) {
+  .carousel .carousel-item {
+    height: 500px;
+    margin-top: 1rem;
+  }
+  .titulo-FashionBrand h2 {
+    margin-top: 4rem;
+  }
+
+  .carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+  }
+
+  .mensaje-FashionBrand h5 {
+    font-size: 7vw;
+  }
+
+  .mensaje-FashionBrand p {
+    font-size: 2vw;
+  }
+
+  .video-FashionBrand h3 {
+    margin: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .esenciales-FashionBrand h4 {
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 441px) {
+  .mensaje-FashionBrand h5 {
+    font-size: 7vw;
+  }
+  .mensaje-FashionBrand p {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #button-all {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .titulo-FashionBrand h2 {
+    text-align: justify;
+    margin: 2rem 3rem 2rem 3rem;
+  }
+  .mensaje-FashionBrand h5 {
+    font-size: 7vw;
+  }
+  .mensaje-FashionBrand p {
+    font-size: 2vw;
+  }
+}
+
+.footer {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: rgb(39, 39, 39);
+  background-color: #f5f6f7;
+}
+.icon-list ul {
+  font-size: 25px;
+  list-style-type: none;
+}
+.icon-list ul li {
+  margin-left: 10px;
+}
+.icon-list ul li a {
+  color: rgb(34, 34, 34);
+}
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]
+{
+  display: none;
+}
